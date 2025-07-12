@@ -37,9 +37,32 @@ let num=33
 let numString=String(num);
 console.log(typeof numString); //string
 
+let value=3
+let negValue=-value
+console.log(negValue)
+
+console.table([(2+1),(2-1),(2*3),(2**3),(2/3),(2%3)])
+
+let str1="Hitesh"
+let str2=" Chaudhary"
+let str3=str1+str2
+console.log(str3)
 
 
+console.log("3"+1) //31
+console.log(1+"3") //13
+console.log("1"+2+2) //122
+console.log(1+2+"2");//32
+console.log(+true);//1
+console.log(true)
 
 
+//prefix or postfix 
 
+let gameCounter=3;
+gameCounter++;
+console.log(gameCounter)//4
+let gameCounter1=3;
+++gameCounter1
+console.log(gameCounter1)
 
