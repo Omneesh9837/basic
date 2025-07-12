@@ -48,3 +48,25 @@ const myApp2=()=>{
 
 //typeof use for ki dataaType kya 
 console.log(typeof myObject)
+
+
+//memorty are two type stack(primitive) variable declare ka copy milta h
+// , heap(non primitive) jo bhi change karo to original value me change hoga(original value ka reference milta h c
+// copy nhi miltah)
+
+let myYoutube="hitesh"  /*                                                */
+let anotherName=myYoutube
+console.log(anotherName)
+anotherName="chaudhary"
+console.log(myYoutube)
+console.log(anotherName)
+//isme aapko value nhi di jati stack me iska copy diya jatah 
+let user1={
+    name:"hitesh",
+    eMail:"hiteshgamil.com"
+}
+let user2=user1
+
+user2.eMail="chaudharymail.com"
+console.log(user1.eMail);// user2 ka gmail aayega 
+console.log(user2.eMail)//user 2 ka gamil aayega
